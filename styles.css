@@ -1,0 +1,236 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 1rem 0;
+}
+
+h1, h2, h3, h4 {
+    margin: 0.5em 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5em 1em;
+}
+
+nav ul li a:hover, nav ul li a.active {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2em 0;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 0.5em;
+    text-align: left;
+    background-color: transparent;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.5em 1em;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 1em;
+}
+
+.btn:hover {
+    background: #555;
+}
+
+form input, form textarea, form select {
+    width: 100%;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Center text */
+.page-header h2, .page-header p, .cta h2, .cta p, .hero-content {
+    text-align: center;
+}
+
+/* Improve layout */
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 2rem;
+}
+
+/* Hide form success message initially */
+.form-success {
+    display: none;
+}
+
+/* Move contact form to right */
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.contact-details {
+    flex: 1;
+}
+
+.contact-form-container {
+    flex: 1;
+}
+
+/* Clean spacing */
+section {
+    padding: 2rem 0;
+}
+
+.instructor-cards, .class-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.instructor-card, .class-card {
+    flex: 1 1 300px;
+    border: 1px solid #ccc;
+    padding: 1rem;
+}
+
+.timetable-section {
+    padding-bottom: 0;
+}
+
+/* Blue Highlight for Headings */
+h1, h2, h3, h4, th {
+    color: #1a3b5d; /* Blue */
+}
+
+/* Navigation Active State Background */
+nav ul li a.active {
+    background-color: #1a3b5d;
+    border-radius: 5px;
+}
+
+/* Red Buttons */
+.btn {
+    background-color: #c0392b; /* Red */
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: #a02720;
+}
+
+/* Center CTA and Buttons */
+.cta, .hero-content {
+    text-align: center;
+}
+
+.cta .btn, .hero-content .btn {
+    margin: 1rem auto;
+    display: inline-block;
+}
+
+/* Tables Blue Headers */
+.timetable th, .pricing-table th, .instructor-table th {
+    background-color: #1a3b5d;
+    color: #fff;
+}
+
+/* Specific Blue for Page Names */
+.page-header h2, .page-header p {
+    color: #1a3b5d;
+    text-align: center;
+}
+
+/* Footer Headers Blue */
+.footer-info h3, .footer-hours h3 {
+    color: #1a3b5d;
+}
+
+/* Contact Form Adjustment */
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact-details {
+    flex: 1 1 45%;
+}
+
+.contact-form-container {
+    flex: 1 1 45%;
+}
+
+/* Contact Form Success Message */
+.form-success {
+    display: none;
+    text-align: center;
+    color: #28a745;
+    margin-top: 1rem;
+}
+
+/* Footer Black Background */
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.footer-content h3, .footer-hours h3 {
+    color: #1a3b5d; /* Keep footer headings blue as previously requested */
+}
+
+/* Fix Instructor Card Alignment */
+.instructor-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.instructor-card {
+    flex: 1 1 300px;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    text-align: center;
+}
