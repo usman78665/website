@@ -81,12 +81,12 @@ form input, form textarea, form select {
     border-radius: 4px;
 }
 
-/* Center text */
+
 .page-header h2, .page-header p, .cta h2, .cta p, .hero-content {
     text-align: center;
 }
 
-/* Improve layout */
+
 .hero-content {
     display: flex;
     flex-direction: column;
@@ -95,12 +95,12 @@ form input, form textarea, form select {
     padding: 4rem 2rem;
 }
 
-/* Hide form success message initially */
+
 .form-success {
     display: none;
 }
 
-/* Move contact form to right */
+
 .contact-info {
     display: flex;
     justify-content: space-between;
@@ -115,7 +115,7 @@ form input, form textarea, form select {
     flex: 1;
 }
 
-/* Clean spacing */
+
 section {
     padding: 2rem 0;
 }
@@ -137,20 +137,20 @@ section {
     padding-bottom: 0;
 }
 
-/* Blue Highlight for Headings */
+
 h1, h2, h3, h4, th {
-    color: #1a3b5d; /* Blue */
+    color: #1a3b5d; 
 }
 
-/* Navigation Active State Background */
+
 nav ul li a.active {
     background-color: #1a3b5d;
     border-radius: 5px;
 }
 
-/* Red Buttons */
+
 .btn {
-    background-color: #c0392b; /* Red */
+    background-color: #c0392b; 
     color: #fff;
 }
 
@@ -158,7 +158,7 @@ nav ul li a.active {
     background-color: #a02720;
 }
 
-/* Center CTA and Buttons */
+
 .cta, .hero-content {
     text-align: center;
 }
@@ -168,24 +168,24 @@ nav ul li a.active {
     display: inline-block;
 }
 
-/* Tables Blue Headers */
+
 .timetable th, .pricing-table th, .instructor-table th {
     background-color: #1a3b5d;
     color: #fff;
 }
 
-/* Specific Blue for Page Names */
+
 .page-header h2, .page-header p {
     color: #1a3b5d;
     text-align: center;
 }
 
-/* Footer Headers Blue */
+
 .footer-info h3, .footer-hours h3 {
     color: #1a3b5d;
 }
 
-/* Contact Form Adjustment */
+
 .contact-info {
     display: flex;
     justify-content: space-between;
@@ -200,7 +200,7 @@ nav ul li a.active {
     flex: 1 1 45%;
 }
 
-/* Contact Form Success Message */
+
 .form-success {
     display: none;
     text-align: center;
@@ -208,7 +208,7 @@ nav ul li a.active {
     margin-top: 1rem;
 }
 
-/* Footer Black Background */
+
 footer {
     background-color: #000;
     color: #fff;
@@ -217,10 +217,10 @@ footer {
 }
 
 .footer-content h3, .footer-hours h3 {
-    color: #1a3b5d; /* Keep footer headings blue as previously requested */
+    color: #1a3b5d; 
 }
 
-/* Fix Instructor Card Alignment */
+
 .instructor-cards {
     display: flex;
     flex-wrap: wrap;
